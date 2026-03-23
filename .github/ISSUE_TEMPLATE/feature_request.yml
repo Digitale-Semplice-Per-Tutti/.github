@@ -31,9 +31,9 @@ body:
         - [ ] e.g. Feature works on staging
         - [ ] e.g. Edge cases handled
 
-  - type: input
-    id: depends-on
+  - type: textarea
+    id: notes
     attributes:
-      label: Depends on
-      description: Any issues that must be completed first
-      placeholder: "#12, #34"
+      label: Notes
+      description: Anything else relevant — dependencies, links, edge cases, designs
+      placeholder: "e.g. Depends on #12, see Figma mockup at..."
