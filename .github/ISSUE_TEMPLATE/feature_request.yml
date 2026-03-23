@@ -21,8 +21,6 @@ body:
         - [ ] 
         - [ ] 
         - [ ] 
-    validations:
-      required: true
 
   - type: textarea
     id: done-when
@@ -32,8 +30,6 @@ body:
       placeholder: |
         - [ ] e.g. Feature works on staging
         - [ ] e.g. Edge cases handled
-    validations:
-      required: true
 
   - type: input
     id: depends-on
@@ -41,5 +37,3 @@ body:
       label: Depends on
       description: Any issues that must be completed first
       placeholder: "#12, #34"
-    validations:
-      required: false
